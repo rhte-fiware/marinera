@@ -101,7 +101,7 @@ config:
         lat: 53.339358435436814
         sampleInterval: 30
         age: 10
-        name: "St Patrick's Cathedral"
+        name: "St Patricks Cathedral"
       - id: "urn:ngsi:AirQualityObserved:simulated-5"
         longi: -6.252482514945078
         lat: 53.34096821685317 
