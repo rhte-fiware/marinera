@@ -79,35 +79,35 @@ config:
     fiwareServicePath: "/data"
     aqSimulations:
       - id: "urn:ngsi:AirQualityObserved:simulated-1"
-        longi: -1.2718119
-        lat: 38.0770502
+        longi: -6.254225
+        lat: 53.343737
         sampleInterval: 30
         age: 10
-        name: "HOP Ubiquitous"
+        name: "Trinity College"
       - id: "urn:ngsi:AirQualityObserved:simulated-2"
-        longi: -1.278310158693678
-        lat: 38.07828651005188
+        longi: -6.264113
+        lat: 53.345462
         sampleInterval: 30
         age: 10
-        name: "Parque de la Constitución"
+        name: "The Temple Bar"
       - id: "urn:ngsi:AirQualityObserved:simulated-3"
-        longi: -1.2748824349593826
-        lat: 38.077781381338404
+        longi: -6.264113
+        lat: 53.345462
         sampleInterval: 30
         age: 10
-        name: "Parque Juan Carlos I"
+        name: "Guinness Storehouse"
       - id: "urn:ngsi:AirQualityObserved:simulated-4"
-        longi: -1.26895422283374
-        lat: 38.079269292527684
+        longi: -6.271484
+        lat: 53.339505
         sampleInterval: 30
         age: 10
-        name: "Museo de arte moderno La Conservera"
+        name: "St Patrick's Cathedral"
       - id: "urn:ngsi:AirQualityObserved:simulated-5"
-        longi: -1.271990770471196
-        lat: 38.07943615142072
+        longi: -6.252666
+        lat: 53.341109
         sampleInterval: 30
         age: 10
-        name: "Plaza Nueva"
+        name: "National Gallery of Ireland"
 
 ## configuration for the init-containers 
 init:
