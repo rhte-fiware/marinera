@@ -71,7 +71,7 @@ applications:
     - values.yaml
 
   - name: keycloak-pep
-    enabled: false
+    enabled: true
     source_path: applications/keycloak-pep/chart
     source_ref: *branch
     destination: *destination
@@ -79,7 +79,7 @@ applications:
     - values.yaml
 
   - name: kong
-    enabled: true
+    enabled: false
     source_path: applications/kong/chart
     source_ref: *branch
     destination: *destination
