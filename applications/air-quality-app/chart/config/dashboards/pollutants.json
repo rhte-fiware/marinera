@@ -2375,7 +2375,7 @@
     ]
   },
   "time": {
-    "from": "now-2d",
+    "from": "now-20m",
     "to": "now"
   },
   "timepicker": {},
