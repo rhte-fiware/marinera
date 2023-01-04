@@ -79,32 +79,32 @@ config:
     fiwareServicePath: "/data"
     aqSimulations:
       - id: "urn:ngsi:AirQualityObserved:simulated-1"
-        longi: -6.254225
-        lat: 53.343737
+        longi: -6.254593736817591
+        lat: 53.34380509465432
         sampleInterval: 30
         age: 10
         name: "Trinity College"
       - id: "urn:ngsi:AirQualityObserved:simulated-2"
-        longi: -6.264113
-        lat: 53.345462
+        longi: -6.263629785656284
+        lat: 53.34562161798412
         sampleInterval: 30
         age: 10
         name: "The Temple Bar"
       - id: "urn:ngsi:AirQualityObserved:simulated-3"
-        longi: -6.264113
-        lat: 53.345462
+        longi: -6.286705737035341
+        lat: 53.34199719652985
         sampleInterval: 30
         age: 10
         name: "Guinness Storehouse"
       - id: "urn:ngsi:AirQualityObserved:simulated-4"
-        longi: -6.271484
-        lat: 53.339505
+        longi: -6.271471337035443
+        lat: 53.339358435436814
         sampleInterval: 30
         age: 10
         name: "St Patrick's Cathedral"
       - id: "urn:ngsi:AirQualityObserved:simulated-5"
-        longi: -6.252666
-        lat: 53.341109
+        longi: -6.252482514945078
+        lat: 53.34096821685317 
         sampleInterval: 30
         age: 10
         name: "National Gallery of Ireland"
