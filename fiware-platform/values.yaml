@@ -1,7 +1,7 @@
-source: https://github.com/FIWARE-Ops/marinera
-release: demo
-destination_namespace: &destination demo
-branch: &branch main
+source: https://github.com/rhte-fiware/marinera
+release: rhte-demo
+destination_namespace: &destination rhte-demo
+branch: &branch rhte-demo
 secretsEnabled: &secretsEnabled false
 host: &host
 tlsSecret: &tlsSecret
@@ -71,7 +71,7 @@ applications:
     - values.yaml
 
   - name: keycloak-pep
-    enabled: true
+    enabled: false
     source_path: applications/keycloak-pep/chart
     source_ref: *branch
     destination: *destination
