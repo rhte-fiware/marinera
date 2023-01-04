@@ -41,7 +41,7 @@ mongodb:
     marinera/subcomponent: persistence
     marinera/product: mongodb
   metrics:
-    enabled: true
+    enabled: false
     serviceMonitor:
       enabled: true
     resources:
